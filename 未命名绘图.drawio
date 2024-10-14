@@ -37,6 +37,12 @@
         <mxCell id="mXYllTCQmEwmROtQHEfQ-16" value="cin&amp;gt;&amp;gt;s" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="385" y="390" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mXYllTCQmEwmROtQHEfQ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-18" target="mXYllTCQmEwmROtQHEfQ-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mXYllTCQmEwmROtQHEfQ-18" value="缓冲区队列" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="240" width="110" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
