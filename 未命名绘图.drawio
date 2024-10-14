@@ -34,8 +34,8 @@
         <mxCell id="mXYllTCQmEwmROtQHEfQ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-16" target="mXYllTCQmEwmROtQHEfQ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mXYllTCQmEwmROtQHEfQ-16" value="cin&amp;gt;&amp;gt;s" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="385" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="mXYllTCQmEwmROtQHEfQ-16" value="cin&amp;gt;&amp;gt;s，&lt;div&gt;类型转换，&lt;/div&gt;&lt;div&gt;如果无法转换，&lt;/div&gt;&lt;div&gt;将输入0&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="377.5" y="390" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mXYllTCQmEwmROtQHEfQ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-18" target="mXYllTCQmEwmROtQHEfQ-0">
           <mxGeometry relative="1" as="geometry" />
@@ -46,8 +46,8 @@
         <mxCell id="mXYllTCQmEwmROtQHEfQ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-20" target="mXYllTCQmEwmROtQHEfQ-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mXYllTCQmEwmROtQHEfQ-20" value="缓冲区暂存，&lt;div&gt;等待下一次cin。&lt;/div&gt;&lt;div&gt;缓冲区暂存的value被读取完毕前，不会要求用户再次输入。&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="518.75" y="400" width="192.5" height="120" as="geometry" />
+        <mxCell id="mXYllTCQmEwmROtQHEfQ-20" value="缓冲区暂存，&lt;div&gt;等待下一次cin。&lt;/div&gt;&lt;div&gt;缓冲区暂存的value被读取完毕前，&lt;/div&gt;&lt;div&gt;不会要求用户再次输入。&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="515" y="400" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
