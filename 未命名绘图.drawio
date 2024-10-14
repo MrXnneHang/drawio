@@ -31,6 +31,9 @@
         <mxCell id="fcXhu6L6UJ9HACw3cu2v-0" value="False" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="300" y="460" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="6vOGwyiXUZajv6BZvjdm-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fcXhu6L6UJ9HACw3cu2v-2" target="6vOGwyiXUZajv6BZvjdm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fcXhu6L6UJ9HACw3cu2v-2" value="break" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="120" y="460" width="120" height="80" as="geometry" />
         </mxCell>
@@ -49,8 +52,11 @@
         <mxCell id="6vOGwyiXUZajv6BZvjdm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6vOGwyiXUZajv6BZvjdm-2" target="bN-U2qPbiVQ-y4dqBJc6-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6vOGwyiXUZajv6BZvjdm-2" value="i++" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="590" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="6vOGwyiXUZajv6BZvjdm-2" value="++i/i++&lt;div&gt;这两者不会影响条件判断&lt;/div&gt;&lt;div&gt;可以改成其他的表达句&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="190" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6vOGwyiXUZajv6BZvjdm-6" value="这里i的终止值是101&lt;div&gt;循环体内是[0,100]&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
