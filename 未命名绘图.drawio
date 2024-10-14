@@ -22,20 +22,26 @@
         <mxCell id="mXYllTCQmEwmROtQHEfQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-10" target="mXYllTCQmEwmROtQHEfQ-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mXYllTCQmEwmROtQHEfQ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-10" target="mXYllTCQmEwmROtQHEfQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mXYllTCQmEwmROtQHEfQ-10" value="cin&amp;gt;&amp;gt;i" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="210" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mXYllTCQmEwmROtQHEfQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-12" target="mXYllTCQmEwmROtQHEfQ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mXYllTCQmEwmROtQHEfQ-12" value="&lt;div&gt;程序:&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;cin&amp;gt;&amp;gt;i;&lt;div&gt;cin&amp;gt;&amp;gt;s;&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;用户输入:1 hello world&lt;/div&gt;&lt;div&gt;结果:&lt;/div&gt;&lt;div&gt;i=1&lt;/div&gt;&lt;div&gt;s=hello&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="355" y="40" width="180" height="130" as="geometry" />
+        <mxCell id="mXYllTCQmEwmROtQHEfQ-12" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;程序:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;---&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;cin&amp;gt;&amp;gt;i;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;cin&amp;gt;&amp;gt;s;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;---&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;用户输入:1 hello world&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;结果:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;i=1&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;s=hello&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355" y="50" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="mXYllTCQmEwmROtQHEfQ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-16" target="mXYllTCQmEwmROtQHEfQ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mXYllTCQmEwmROtQHEfQ-16" value="cin&amp;gt;&amp;gt;s，&lt;div&gt;类型转换，&lt;/div&gt;&lt;div&gt;如果无法转换，&lt;/div&gt;&lt;div&gt;将输入0&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="377.5" y="390" width="135" height="80" as="geometry" />
+        <mxCell id="mXYllTCQmEwmROtQHEfQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-16" target="mXYllTCQmEwmROtQHEfQ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mXYllTCQmEwmROtQHEfQ-16" value="cin&amp;gt;&amp;gt;s" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="377.5" y="390" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mXYllTCQmEwmROtQHEfQ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-18" target="mXYllTCQmEwmROtQHEfQ-0">
           <mxGeometry relative="1" as="geometry" />
@@ -48,6 +54,9 @@
         </mxCell>
         <mxCell id="mXYllTCQmEwmROtQHEfQ-20" value="缓冲区暂存，&lt;div&gt;等待下一次cin。&lt;/div&gt;&lt;div&gt;缓冲区暂存的value被读取完毕前，&lt;/div&gt;&lt;div&gt;不会要求用户再次输入。&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="515" y="400" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mXYllTCQmEwmROtQHEfQ-24" value="将用户输入和变量进行类型匹配，&lt;div&gt;如果无法自动转换，将输入替换成0&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="530" width="250" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
