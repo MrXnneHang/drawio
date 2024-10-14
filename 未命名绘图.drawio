@@ -28,8 +28,8 @@
         <mxCell id="mXYllTCQmEwmROtQHEfQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-12" target="mXYllTCQmEwmROtQHEfQ-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mXYllTCQmEwmROtQHEfQ-12" value="cin&amp;gt;&amp;gt;i;&lt;div&gt;cin&amp;gt;&amp;gt;s;&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;用户输入:1 hello world&lt;/div&gt;&lt;div&gt;结果:i=1&lt;/div&gt;&lt;div&gt;s=hello&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="50" width="180" height="110" as="geometry" />
+        <mxCell id="mXYllTCQmEwmROtQHEfQ-12" value="&lt;div&gt;程序:&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;cin&amp;gt;&amp;gt;i;&lt;div&gt;cin&amp;gt;&amp;gt;s;&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;用户输入:1 hello world&lt;/div&gt;&lt;div&gt;结果:i=1&lt;/div&gt;&lt;div&gt;s=hello&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="30" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="mXYllTCQmEwmROtQHEfQ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-16" target="mXYllTCQmEwmROtQHEfQ-1">
           <mxGeometry relative="1" as="geometry" />
@@ -42,6 +42,12 @@
         </mxCell>
         <mxCell id="mXYllTCQmEwmROtQHEfQ-18" value="缓冲区队列" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="50" y="240" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mXYllTCQmEwmROtQHEfQ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mXYllTCQmEwmROtQHEfQ-20" target="mXYllTCQmEwmROtQHEfQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mXYllTCQmEwmROtQHEfQ-20" value="缓冲区暂存，&lt;div&gt;等待下一次cin&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="555" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
