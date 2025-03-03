@@ -109,7 +109,7 @@
         <mxCell id="SW_5w-DrPAUn7yqKz4qi-12" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1369" y="705" width="240" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="SW_5w-DrPAUn7yqKz4qi-13" value="超分辨率提高图像分辨率。&lt;div&gt;同时抵抗噪点和图像退化。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="SW_5w-DrPAUn7yqKz4qi-13" value="超分辨率提高图像分辨率。&lt;div&gt;同时抵抗噪点和图像退化。&lt;/div&gt;&lt;div&gt;https://github.com/xinntao/Real-ESRGAN&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1350" y="725" width="280" height="90" as="geometry" />
         </mxCell>
       </root>
