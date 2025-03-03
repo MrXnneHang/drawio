@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="12e1b939-464a-85fe-373e-61e167be1490">
-    <mxGraphModel dx="683" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,14 +49,11 @@
         <mxCell id="60da8b9f42644d3a-25" value="Convert/Face Seg" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="790" y="425" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="60da8b9f42644d3a-26" value="推理可以自由组合模型，模型用onnx运行&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;脸部修复的前置，如果脸部区域占比小于一定阈值，就对脸部进行mask以及更高分辨率重采样。&lt;/div&gt;&lt;div&gt;单独跑脸部特写的AnimeConverting和整图。&lt;/div&gt;&lt;div&gt;Face Fix的时候进行帧融合，能直接融合的原因是因为GAN高分辨率和低分辨率转出来的轮廓是完全一致的，只是细节缺失。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="790" y="690" width="280" height="90" as="geometry" />
+        <mxCell id="60da8b9f42644d3a-26" value="推理可以自由组合模型，模型用onnx运行&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;脸部修复的前置，如果脸部区域占比小于一定阈值，就对脸部进行mask以及更高分辨率重采样。&lt;/span&gt;&lt;div&gt;单独跑脸部特写的AnimeConverting和整图。&lt;/div&gt;&lt;div&gt;Face Fix的时候进行帧融合，能直接融合的原因是因为GAN高分辨率和低分辨率转出来的轮廓是完全一致的，只是细节缺失。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="800" y="700" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="60da8b9f42644d3a-27" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="810" y="485" width="240" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="60da8b9f42644d3a-28" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="810" y="705" width="240" height="10" as="geometry" />
         </mxCell>
         <mxCell id="60da8b9f42644d3a-29" value="AnimeGAN/&lt;div&gt;CartoonGAN&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=6;fontSize=14;align=center;fillColor=#EF9353;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="733" y="545" width="115" height="115" as="geometry" />
@@ -70,7 +67,7 @@
         <mxCell id="60da8b9f42644d3a-32" value="Face Fix" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=27;fontColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1080" y="415" width="250" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="60da8b9f42644d3a-33" value="默认开启，当人脸占比较小时.会出现细节丢失，&lt;div&gt;对 input 脸部以更高分辨率重采样局部 mask ，segment 以及重绘。&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;让脸部细节更丰富。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;灵感来源:sd-face-editor,Frame Fusion&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="60da8b9f42644d3a-33" value="当人脸占比较小时.会出现细节丢失，&lt;div&gt;对 input 脸部以更高分辨率重采样局部 mask ，segment 以及重绘。&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;让脸部细节更丰富。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;灵感来源:sd-face-editor,Frame Fusion&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1070" y="725" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="60da8b9f42644d3a-34" value="" style="line;strokeWidth=2;html=1;rounded=0;shadow=0;fontSize=27;align=center;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
